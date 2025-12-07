@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  simple_pipeline:
+    cmd: python src/pipeline/task1_pipeline.py
+    deps:
+    - path: data/00_raw/MachineLearningRating_v3.txt
+      hash: md5
+      md5: f6b7009b68ae21372b7deca9307fbb23
+      size: 529363713
+    - path: src/pipeline/task1_pipeline.py
+      hash: md5
+      md5: 868278ea5752f65336848752d4ef8153
+      size: 5572
+    outs:
+    - path: data/01_interim/cleaned_data.txt
+      hash: md5
+      md5: 893741a9179f370a40f0841842f0a92e
+      size: 564670933
+    - path: data/01_interim/features_data.txt
+      hash: md5
+      md5: 78783785ef05ed78c47f27990a681a13
+      size: 577859352
+    - path: data/01_interim/raw_data.txt
+      hash: md5
+      md5: 098bb1fde896e54a8a2080dafc409e51
+      size: 546173149
