@@ -1,0 +1,29 @@
+============================================================
+CORRELATION ANALYSIS SUMMARY
+============================================================
+
+Analysis Date: 2025-12-08 03:10
+Dataset: 50,000 rows x 52 columns
+Variables analyzed: 7
+Complete cases used: 50,000
+
+VARIABLES ANALYZED:
+  - cubiccapacity: mean = 2537.02
+  - kilowatts: mean = 98.69
+  - capitaloutstanding: mean = 169466.18
+  - suminsured: mean = 587975.60
+  - calculatedpremiumperterm: mean = 135.83
+  - totalpremium: mean = 84.26
+  - totalclaims: mean = 63.27
+
+TOP CORRELATIONS:
+  - calculatedpremiumperterm vs totalpremium: r = 0.819 (strong)
+  - cubiccapacity vs kilowatts: r = 0.496 (moderate)
+  - cubiccapacity vs capitaloutstanding: r = 0.179 (weak)
+  - suminsured vs calculatedpremiumperterm: r = -0.107 (weak)
+  - capitaloutstanding vs calculatedpremiumperterm: r = 0.090 (weak)
+  - totalpremium vs totalclaims: r = 0.086 (weak)
+  - suminsured vs totalpremium: r = -0.086 (weak)
+  - capitaloutstanding vs totalpremium: r = 0.082 (weak)
+  - calculatedpremiumperterm vs totalclaims: r = 0.075 (weak)
+  - cubiccapacity vs totalpremium: r = 0.031 (weak)

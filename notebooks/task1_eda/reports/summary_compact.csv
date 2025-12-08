@@ -1,0 +1,53 @@
+col,type,n,miss,miss_pct,uniq,min,max,mean,start,end,true,false,true_pct,mode,mode_pct
+underwrittencoverid,int64,50000,0,0.0,8882,671.0,301162.0,144135.8,,,,,,,
+policyid,int64,50000,0,0.0,831,99.0,23245.0,11382.74,,,,,,,
+transactionmonth,datetime64[ns],50000,0,0.0,22,,,,2013-11-01,2015-08-01,,,,,
+isvatregistered,bool,50000,0,0.0,2,,,,,,801.0,49199.0,1.6,,
+citizenship,object,50000,0,0.0,1,,,,,,,,,  ,100.0
+legaltype,object,50000,0,0.0,2,,,,,,,,,Individual,97.1
+title,object,50000,0,0.0,3,,,,,,,,,Mr,85.8
+language,object,50000,0,0.0,1,,,,,,,,,English,100.0
+bank,object,50000,0,0.0,5,,,,,,,,,First Nation...,68.9
+accounttype,object,50000,0,0.0,2,,,,,,,,,Current account,97.5
+maritalstatus,object,50000,0,0.0,2,,,,,,,,,Not specified,99.9
+gender,object,50000,0,0.0,2,,,,,,,,,Not specified,95.8
+country,object,50000,0,0.0,1,,,,,,,,,South Africa,100.0
+province,object,50000,0,0.0,9,,,,,,,,,Gauteng,47.5
+postalcode,int64,50000,0,0.0,288,1.0,9869.0,2749.59,,,,,,,
+maincrestazone,object,50000,0,0.0,16,,,,,,,,,Transvaal (a...,21.8
+subcrestazone,object,50000,0,0.0,39,,,,,,,,,Pretoria,17.9
+itemtype,object,50000,0,0.0,1,,,,,,,,,Mobility - M...,100.0
+mmcode,float64,50000,0,0.0,120,4042080.0,65030720.0,57005079.33,,,,,,,
+vehicletype,object,50000,0,0.0,5,,,,,,,,,Passenger Ve...,94.8
+registrationyear,object,50000,0,0.0,22,,,,,,,,,1970-01-01 0...,21.8
+make,object,50000,0,0.0,27,,,,,,,,,TOYOTA,85.7
+model,object,50000,0,0.0,117,,,,,,,,,,
+cylinders,float64,50000,0,0.0,6,0.0,10.0,4.05,,,,,,,
+cubiccapacity,float64,50000,0,0.0,57,0.0,5958.0,2537.02,,,,,,,
+kilowatts,float64,50000,0,0.0,48,0.0,230.0,98.69,,,,,,,
+bodytype,object,50000,0,0.0,8,,,,,,,,,B/S,90.3
+numberofdoors,float64,50000,0,0.0,5,0.0,5.0,3.99,,,,,,,
+vehicleintrodate,object,50000,0,0.0,81,,,,,,,,,,
+customvalueestimate,float64,50000,0,0.0,200,30000.0,26550000.0,267208.8,,,,,,,
+alarmimmobiliser,object,50000,0,0.0,1,,,,,,,,,Yes,100.0
+trackingdevice,object,50000,0,0.0,2,,,,,,,,,Yes,63.6
+capitaloutstanding,float64,50000,0,0.0,234,0.0,654000.0,169466.18,,,,,,,
+newvehicle,object,50000,0,0.0,2,,,,,,,,,More than 6 ...,99.4
+writtenoff,object,50000,0,0.0,2,,,,,,,,,No,99.9
+rebuilt,object,50000,0,0.0,2,,,,,,,,,No,99.9
+converted,object,50000,0,0.0,2,,,,,,,,,No,99.8
+crossborder,object,50000,0,0.0,1,,,,,,,,,No,100.0
+numberofvehiclesinfleet,float64,0,50000,100.0,0,,,,,,,,,,
+suminsured,float64,50000,0,0.0,371,0.01,5000000.0,587975.6,,,,,,,
+termfrequency,object,50000,0,0.0,2,,,,,,,,,Monthly,99.6
+calculatedpremiumperterm,float64,50000,0,0.0,2678,0.38,1694.81,135.83,,,,,,,
+excessselected,object,50000,0,0.0,11,,,,,,,,,No excess,80.6
+covercategory,object,50000,0,0.0,26,,,,,,,,,Keys and Alarms,9.8
+covertype,object,50000,0,0.0,21,,,,,,,,,Keys and Alarms,9.8
+covergroup,object,50000,0,0.0,13,,,,,,,,,Comprehensiv...,77.1
+section,object,50000,0,0.0,5,,,,,,,,,Motor Compre...,77.2
+product,object,50000,0,0.0,3,,,,,,,,,Mobility Com...,95.6
+statutoryclass,object,50000,0,0.0,1,,,,,,,,,Commercial,100.0
+statutoryrisktype,object,50000,0,0.0,1,,,,,,,,,IFRS Constant,100.0
+totalpremium,float64,50000,0,0.0,3627,0.0,1486.68,84.26,,,,,,,
+totalclaims,float64,50000,0,0.0,110,0.0,276248.86,63.27,,,,,,,
