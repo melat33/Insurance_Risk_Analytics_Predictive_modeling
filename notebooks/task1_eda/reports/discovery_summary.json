@@ -1,0 +1,34 @@
+{
+ "rows":10000,
+ "cols":52,
+ "mem_mb":22.8,
+ "missing":56398,
+ "dupes":0,
+ "num_cols":17,
+ "cat_cols":34,
+ "date_cols":0,
+ "ts":"2025-12-08 02:09",
+ "source":"sample",
+ "top_insights":[
+  [
+   "Total Premium",
+   "R 758,679.65"
+  ],
+  [
+   "Average Premium",
+   "R 75.87"
+  ],
+  [
+   "Median Premium",
+   "R 3.03"
+  ],
+  [
+   "Total Claims",
+   "R 403,311.56"
+  ],
+  [
+   "Policies with Claims",
+   "28 (0.3%)"
+  ]
+ ]
+}
