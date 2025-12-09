@@ -1,4 +1,0 @@
-Numerical_Variable,Categorical_Variable,Sample_Size,Number_of_Groups,F_Statistic,P_Value,Significant,Max_Group,Min_Group
-cylinders,transactionmonth,50000,22,6.119912893930953,2.0319961639647574e-17,Yes,2014-12-01,2013-11-01
-cubiccapacity,transactionmonth,50000,22,46.79546409315825,1.3246308855662298e-192,Yes,2015-08-01,2014-02-01
-kilowatts,transactionmonth,50000,22,5.746078058409144,5.6718489023780605e-16,Yes,2014-03-01,2013-11-01

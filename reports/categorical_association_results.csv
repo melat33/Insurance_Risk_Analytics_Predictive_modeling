@@ -1,4 +1,0 @@
-Variable 1,Variable 2,Chi-square,P-value,Cramer_V,Strength,Significant,Sample Size
-transactionmonth,citizenship,0.0000,1.0000,0.0000,Very Weak,Not Significant,50000
-transactionmonth,legaltype,613.3264,0.0000,0.1108,Weak,Significant,50000
-citizenship,legaltype,0.0000,1.0000,0.0000,Very Weak,Not Significant,50000
