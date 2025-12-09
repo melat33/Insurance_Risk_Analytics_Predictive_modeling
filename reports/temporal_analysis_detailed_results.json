@@ -1,0 +1,39 @@
+{
+  "trends": [
+    {
+      "metric": "totalpremium",
+      "trend": "UPWARD trend (0.0000 per period)",
+      "slope": 2.1286846441768702e-05
+    },
+    {
+      "metric": "totalclaims",
+      "trend": "DOWNWARD trend (0.0000 per period)",
+      "slope": -2.8623466692147872e-05
+    }
+  ],
+  "seasonality": [
+    {
+      "metric": "totalpremium",
+      "cv": 360.811184038128
+    }
+  ],
+  "volatility": [
+    {
+      "metric": "totalpremium",
+      "avg_volatility": 118.4237450554757,
+      "max_volatility": 13002.882394640148,
+      "volatility_ratio": 109.79962159234988
+    }
+  ],
+  "anomalies": [
+    {
+      "metric": "totalpremium",
+      "anomaly_count": 209042,
+      "anomaly_pct": 20.902151589144264
+    }
+  ],
+  "best_month": "4",
+  "best_dow": "Wednesday",
+  "date_range": 669,
+  "coverage_pct": 3.4328358208955225
+}
