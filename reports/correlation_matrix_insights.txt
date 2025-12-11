@@ -1,0 +1,18 @@
+============================================================
+CORRELATION MATRIX INSIGHTS
+============================================================
+
+Analysis Date: 2025-12-11 14:16:12
+Variables Analyzed: 15
+Strong Correlations Found (|r| > 0.5): 2
+
+TOP 5 STRONGEST CORRELATIONS:
+----------------------------------------
+1. underwrittencoverid vs policyid
+   Correlation: 0.941
+   Interpretation: Strong Positive
+
+2. calculatedpremiumperterm vs totalpremium
+   Correlation: 0.819
+   Interpretation: Strong Positive
+
